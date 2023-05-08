@@ -2,19 +2,196 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<!-- TODO: 또 무엇이 필요할까요? -->
+    <!-- TODO: 또 무엇이 필요할까요? -->
+		<title>Quest 01</title>
+		<meta name="author" content="KyungBin Park">
+		<meta name="description" content="Quest 01 html 실습 파일입니다">
 	</head>
 	<body>
 		<header>
 			<!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
+			<div>
+				<ul>
+					<li><a href="#">QR 체크인</a></li>
+					<li><a href="#">네이버 페이</a></li>
+					<li><a href="#">알림 박스</a></li>
+				</ul>
+			</div>
+			<h1>NAVER</h1>
+			<section>
+				<input type="text" placeholder="검색어를 입력해주세요">
+				<button>음성 검색</button>
+				<button>Naver Lens</button>
+				<button>위치</button>
+			</section>
+			<nav>
+				<ul>
+					<li><a href="#">뉴스판</a></li>
+					<li><a href="#">경제지표판</a></li>
+					<li><a href="#">연예판</a></li>
+					<li><a href="#">트렌드판</a></li>
+					<li><a href="#">메일</a></li>
+					<li><a href="#">카페</a></li>
+					<li><a href="#">블로그</a></li>
+					<li><a href="#">...</a></li>
+				</ul>
+			</nav>
 		</header>
-
 		<section class="main">
 			<!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
+			<article>
+				<h2>날씨</h2>
+				<img alt="날씨 흐림">
+				<div>
+					10° 맑음
+				</div>
+				<div>
+					어제보다 2° 높아요
+				</div>
+			</article>
+			<article>
+				<div>
+					<h2>날씨</h2>
+					<p>서울시 잠실동</p>
+					<button>toggle</button>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<button>시간대별 날씨</button>
+						</li>
+						<li>
+							<button>시간대별 미세먼지</button>
+						</li>
+						<li>
+							<button>주간 날씨</button>
+						</li>
+						<li>
+							<button>주간 미세먼지</button>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<div>
+								<p>19°</p>
+								<p>8°</p>
+								<img alt="clear sun image">
+								<p>어제</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<p>22°</p>
+								<p>7°</p>
+								<img alt="clear sun image">
+								<p>오늘</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article> 
+				<h2>COVID-19</h2>
+				<a href="#">
+					<h2>코로나 19</h2>
+					<p>국내외 확진 현황</p>
+				</a>
+				<div aria-label="division box"></div>
+				<a href="#">
+					<h2>코로나19 팩트체크</h2>
+					<p>백신 정보 팩트는?</p>
+				</a>
+			</article>
+			<article>
+				<a href="#">
+					<h2>공휴일</h2>
+					<img alt="제 102주년 대한민국 임시정부 수립일">
+				</a>
+			</article>
+			<article>
+				<h2>광고</h2>
+				<img alt="naver logo">
+				<p>앱으로 <strong>새로운 네이버</strong>를 더 쾌적하게 사용해보세요.</p>
+				<a href="#">앱 사용하기</a>
+			</article>
+			<article>
+				<h2>웹툰</h2>
+				<a href="#">
+					<h2>웹툰</h2>
+					<img alt="toggle">
+				</a>
+			</article>
+			<article>
+				<h2>인기 판</h2>
+				<div>
+					<h2>인기 주제 판을 확인해 보세요!</h2>
+					<a href="#">판 관리</a>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<a href="#">
+								<img alt="영화판">
+								<p>영화판</p>
+								<img alt="페이지 이동">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img alt="뿜판">
+								<p>뿜판</p>
+								<img alt="페이지 이동">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img alt="웹툰판">
+								<p>웹툰판</p>
+								<img alt="페이지 이동">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img alt="경제M판">
+								<p>경제M판</p>
+								<img alt="페이지 이동">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article>
+				<h2>notice</h2>
+				<a href="#">
+					<p>알립니다</p>
+					<p>네이버앱 업데이트 사전 안내</p>
+					<img alt="페이지 이동">
+				</a>
+			</article>
 		</section>
 
 		<footer>
 			<!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+			<div>
+				<ul>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">전체 서비스</a></li>
+					<li><a href="#">PC버전</a></li>
+				</ul>	
+			</div>
+			<div>
+				<ul>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">고객센터</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>NAVER</h3>
+				<img alt="naver logo image"/>
+			</div>
 		</footer>
 	</body>
 </html>
