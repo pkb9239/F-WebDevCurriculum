@@ -1,0 +1,123 @@
+.t-init-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .t-normal-bg {
+    background-color: #f4f6f8;
+  }
+  
+  .t-header-button {
+    border: 1px solid #e3e5e7;
+    background-color: #e3e5e7;
+    border-radius: 20px;
+  }
+  
+  .t-header-title {
+    color: #2db400;
+    font-size: 4em;
+    font-weight: bold;
+  }
+  
+  .t-header-searchbox {
+    box-sizing: border-box;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+    background-color: white;
+    border: 1px solid #2db400;
+    border-radius: 3px;
+  }
+  
+  .t-searchbox-input {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .t-searchbox-button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: transparent;
+    color: #2db400;
+    transition: box-shadow 0.2s, color 0.2s, background-color 0.2s;
+  }
+  
+  .t-nav-button {
+    background-color: #7cc763;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.7em;
+  }
+  
+  .t-weather-small {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-weather-large {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-weather-large-toggle {
+    background-color: #7cc763;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .t-weather-large-navbtn {
+    cursor: pointer;
+  }
+  
+  .t-covid {
+    background-color: white;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-holiday {
+    background-color: white;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-ad {
+    font-size: 0.9rem;
+    background-color: white;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-ad-btn {
+    border: 1px solid #4042b8;
+    color: #4042b8;
+    border-radius: 5px;
+  }
+  
+  .t-webtoon {
+    background-color: white;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-popular {
+    background-color: white;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-popular-pann {
+    background-color: rgb(223, 223, 223);
+  }
+  
+  .t-notice {
+    background-color: white;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-notice-label{
+    color:#7cc763;
+    border: 1px solid #7cc763;
+    border-radius: 10px;
+  }

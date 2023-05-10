@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- TODO: 또 무엇이 필요할까요? -->
+    <title>Quest 02</title>
+    <link href="theme.css" rel="stylesheet" />
+    <link href="state.css" rel="stylesheet" />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="layout.css" rel="stylesheet" />
+    <meta name="author" content="KyungBin Park" />
+    <meta name="description" content="Quest 01 html 실습 파일입니다" />
+  </head>
+  <body>
+    <header class="l-column-container t-normal-bg">
+      <!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
+      <div class="l-row-container l-flex-end l-header-bar">
+        <ul class="l-row-list">
+          <li>
+            <a href="#" class="l-header-button t-header-button">QR 체크인</a>
+          </li>
+          <li>
+            <a href="#" class="l-header-button t-header-button">네이버 페이</a>
+          </li>
+          <li>
+            <a href="#" class="l-header-button t-header-button">알림 박스</a>
+          </li>
+        </ul>
+      </div>
+      <h1 class="t-header-title">NAVER</h1>
+      <section class="l-header-searchbox t-header-searchbox">
+        <input
+          class="l-searchbox-input t-searchbox-input"
+          type="text"
+          placeholder="검색어를 입력해주세요"
+        />
+        <button class="t-searchbox-button l-searchbox-button">음성 검색</button>
+        <button class="t-searchbox-button l-searchbox-button">
+          Naver Lens
+        </button>
+        <button class="t-searchbox-button l-searchbox-button">위치</button>
+      </section>
+      <nav class="l-header-nav">
+        <ul class="l-nav-ulist">
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">뉴스판</a>
+          </li>
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">경제지표판</a>
+          </li>
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">연예판</a>
+          </li>
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">트렌드판</a>
+          </li>
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">메일</a>
+          </li>
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">카페</a>
+          </li>
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">블로그</a>
+          </li>
+          <li class="l-nav-list">
+            <a href="#" class="l-nav-button t-nav-button">...</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main t-normal-bg">
+      <!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
+      <article class="l-weather-small t-weather-small">
+        <h2 class="s-display-none">날씨</h2>
+        <img alt="날씨 흐림" />
+        <div class="l-weather-small-info">
+          <div><strong>10° 맑음</strong></div>
+          <div>어제보다 2° 높아요</div>
+        </div>
+      </article>
+      <article class="l-weather-large t-weather-large">
+        <div class="l-row-container l-justify-between">
+          <div class="l-row-container">
+            <h2 class="l-weather-large-title">날씨</h2>
+            <div>서울시 잠실동</div>
+          </div>
+          <button class="l-weather-large-toggle t-weather-large-toggle">
+            toggle
+          </button>
+        </div>
+        <div class="l-weather-large-nav">
+          <ul>
+            <li>
+              <button
+                class="l-weather-large-navbtn t-weather-large-navbtn s-weather-large-navbtn-normal"
+              >
+                시간대별 날씨
+              </button>
+            </li>
+            <li>
+              <button
+                class="l-weather-large-navbtn t-weather-large-navbtn s-weather-large-navbtn-normal"
+              >
+                시간대별 미세먼지
+              </button>
+            </li>
+            <li>
+              <button
+                class="l-weather-large-navbtn t-weather-large-navbtn s-weather-large-navbtn-active"
+              >
+                주간 날씨
+              </button>
+            </li>
+            <li>
+              <button
+                class="l-weather-large-navbtn t-weather-large-navbtn s-weather-large-navbtn-normal"
+              >
+                주간 미세먼지
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="l-weather-large-listarea">
+          <ul>
+            <li>
+              <div class="l-weather-large-list">
+                <p>19°</p>
+                <p>8°</p>
+                <img alt="clear sun image" />
+                <p class="s-weather-large-date-normal">어제</p>
+              </div>
+            </li>
+            <li>
+              <div class="l-weather-large-list">
+                <p>22°</p>
+                <p>7°</p>
+                <img alt="clear sun image" />
+                <p class="s-weather-large-date-active">오늘</p>
+              </div>
+            </li>
+            <li>
+              <div class="l-weather-large-list">
+                <p>19°</p>
+                <p>8°</p>
+                <img alt="clear sun image" />
+                <p class="s-weather-large-date-normal">월</p>
+              </div>
+            </li>
+            <li>
+              <div class="l-weather-large-list">
+                <p>19°</p>
+                <p>8°</p>
+                <img alt="clear sun image" />
+                <p class="s-weather-large-date-normal">화</p>
+              </div>
+            </li>
+            <li>
+              <div class="l-weather-large-list">
+                <p>19°</p>
+                <p>8°</p>
+                <img alt="clear sun image" />
+                <p class="s-weather-large-date-normal">수</p>
+              </div>
+            </li>
+            <li>
+              <div class="l-weather-large-list">
+                <p>19°</p>
+                <p>8°</p>
+                <img alt="clear sun image" />
+                <p class="s-weather-large-date-normal">목</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="l-covid t-covid">
+        <h2 class="l-covid-large-title">COVID-19</h2>
+        <div class="l-row-container">
+          <a href="#" class="l-width-half">
+            <h2>코로나 19</h2>
+            <p>국내외 확진 현황</p>
+          </a>
+          <a href="#" class="l-width-half">
+            <h2>코로나19 팩트체크</h2>
+            <p>백신 정보 팩트는?</p>
+          </a>
+        </div>
+      </article>
+      <article class="l-holiday t-holiday">
+        <a href="#">
+          <h2 class="s-display-none">공휴일</h2>
+          <img alt="제 102주년 대한민국 임시정부 수립일" />
+        </a>
+      </article>
+      <article class="l-row-container l-ad t-ad">
+        <h2 class="s-display-none">광고</h2>
+        <img alt="naver logo" />
+        <p>앱으로 <strong>새로운 네이버</strong>를 더 쾌적하게 사용해보세요.</p>
+        <a href="#" class="l-ad-btn t-ad-btn">앱 사용하기</a>
+      </article>
+      <article class="l-webtoon t-webtoon">
+        <h2 class="s-display-none">웹툰</h2>
+        <a href="#" class="l-webtoon-link">
+          <h2>웹툰</h2>
+          <img alt="toggle" />
+        </a>
+      </article>
+      <article class="l-popular t-popular">
+        <h2 class="s-display-none">인기 판</h2>
+        <div class="l-popular-header">
+          <h2 class="l-popular-title">인기 주제 판을 확인해 보세요!</h2>
+          <a href="#">판 관리</a>
+        </div>
+        <div>
+          <ul class="l-popular-pann-area">
+            <li class="l-popular-pann-container">
+              <a href="#" class="l-popular-pann t-popular-pann">
+                <img alt="영화판" />
+                <p>영화판</p>
+                <img alt="페이지 이동" />
+              </a>
+            </li>
+            <li class="l-popular-pann-container">
+              <a href="#" class="l-popular-pann t-popular-pann">               
+                 <img alt="뿜판" />
+                <p>뿜판</p>
+                <img alt="페이지 이동" />
+              </a>
+            </li>
+            <li class="l-popular-pann-container">
+              <a href="#" class="l-popular-pann t-popular-pann">                
+                <img alt="웹툰판" />
+                <p>웹툰판</p>
+                <img alt="페이지 이동" />
+              </a>
+            </li>
+            <li class="l-popular-pann-container">
+              <a href="#" class="l-popular-pann t-popular-pann">                
+                <img alt="경제M판" />
+                <p>경제M판</p>
+                <img alt="페이지 이동" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="l-notice t-notice">
+        <h2 class="s-display-none">notice</h2>
+        <a href="#" class="l-notice-container">
+          <div class="l-notice-container-left">
+            <p class="l-notice-label t-notice-label">알립니다</p>
+            <p>네이버앱 업데이트 사전 안내</p>
+          </div>
+          <img alt="페이지 이동" />
+        </a>
+      </article>
+    </section>
+
+    <footer class="l-footer">
+      <!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+      <div class="l-footer-row">
+        <ul>
+          <li class="l-footer-link"><a href="#">로그인</a></li>
+          <li class="l-footer-link"><a href="#">전체 서비스</a></li>
+          <li class="l-footer-link"><a href="#">PC버전</a></li>
+        </ul>
+      </div>
+      <div class="l-footer-row">
+        <ul>
+          <li class="l-footer-link"><a href="#">이용약관</a></li>
+          <li class="l-footer-link"><a href="#">개인정보처리방침</a></li>
+          <li class="l-footer-link"><a href="#">고객센터</a></li>
+        </ul>
+      </div>
+      <div class="l-footer-row">
+        <h3 class="s-display-none">NAVER</h3>
+        <img alt="naver logo image" />
+      </div>
+    </footer>
+  </body>
+</html>

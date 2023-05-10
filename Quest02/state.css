@@ -1,0 +1,62 @@
+.t-searchbox-input:focus {
+    outline: none;
+  }
+  
+  .t-searchbox-button:hover {
+    color: white;
+    background-color: #2db400;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .t-nav-button:hover {
+    transition: box-shadow, 0.5s;
+    box-shadow: rgba(117, 145, 181, 0.12) 0px 5px 10px 0px;
+  }
+  
+  .s-display-none {
+    display: none;
+  }
+  
+  .t-weather-large-toggle:hover {
+    cursor: pointer;
+  }
+  
+  .s-weather-large-navbtn-active {
+    background-color: #757bc5;
+    color: white;
+  }
+  
+  .s-weather-large-navbtn-normal {
+    color: black;
+  }
+  
+  .s-weather-large-navbtn-normal:hover {
+    background-color: #8d91c0;
+    color: white;
+  }
+  .s-weather-large-date-normal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+  }
+  
+  .s-weather-large-date-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    color: white;
+    border-radius: 15px;
+    background-color: #123123;
+    text-align: center;
+  }
+  
+  .t-ad-btn:hover {
+    transition: color, background-color, 0.2s;
+    background-color: #4042b8;
+    color: white;
+  
+  }
