@@ -1,3 +1,11 @@
 {
-    "name": "quest08"
-}
+    "name": "quest08",
+    "type": "module",
+    "scripts": {
+      "start": "node server.mjs",
+      "nodemon": "nodemon server.mjs"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
